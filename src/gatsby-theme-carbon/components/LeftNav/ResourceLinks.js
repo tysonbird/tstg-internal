@@ -3,16 +3,16 @@ import ResourceLinks from 'gatsby-theme-carbon/src/components/LeftNav/ResourceLi
 
 const links = [
   {
-    title: 'Github',
-    href: 'https://github.com/carbon-design-system/gatsby-theme-carbon',
+    title: 'Search All Listings',
+    href: '/things-to-do-in-texas',
   },
   {
-    title: 'Carbon',
-    href: 'https://www.carbondesignsystem.com',
+    title: 'Texas Highways Magazine',
+    href: 'https://texashighways.com',
   },
   {
-    title: 'Configuration guide',
-    href: '/guides/configuration',
+    title: 'Texas Department of Transportation',
+    href: 'https://www.txdot.gov',
   },
 ];
 

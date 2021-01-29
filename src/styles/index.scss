@@ -1,1 +1,86 @@
-// This is where your application styles could go.
+@font-face {
+    font-family: Breve Display Regular;
+    src: url('fonts/brevedisplay-regular-webfont.woff2') format('woff2');
+    src: url('fonts/brevedisplay-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    }
+    @font-face {
+    font-family: Breve Text Black;
+    src: url('fonts/brevetext-black-webfont.woff2') format('woff2');
+    src: url('fonts/brevetext-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    }
+    @font-face {
+    font-family: Breve Sans Text Book;
+    src: url('fonts/brevesanstext-book-webfont.woff2') format('woff2');
+    src: url('fonts/brevesanstext-book-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    }
+    @font-face {
+    font-family: Breve Text Book;
+    src: url('fonts/brevetext-book-webfont.woff2') format('woff2');
+    src: url('fonts/brevetext-book-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    }
+    @font-face {
+    font-family: Breve Text Semi Bold;
+    src: url('fonts/brevetext-semibold-webfont.woff2') format('woff2');
+    src: url('fonts/brevetext-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    }
+    @font-face {
+    font-family: Breve Sans Text Black;
+    src: url('fonts/brevesanstext-black-webfont.woff2') format('woff2');
+    src: url('fonts/brevesanstext-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    }
+    @font-face {
+    font-family: Breve Sans Text Semi Bold;
+    src: url('fonts/brevesanstext-semibold-webfont.woff2') format('woff2');
+    src: url('fonts/brevesanstext-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+header, a, p, h1, h2, h3, li {
+    font-family: 'Breve Sans Text Book', sans-serif;
+}
+
+// [class*='sidenav-list'] {
+//     background-color: #ffffff;
+// }
+
+[class*='bx--side-nav__item'] a, span {
+    font-family: 'Breve Sans Text Semi Bold', sans-serif;
+    font-weight: normal;
+}
+
+[class*='bx--side-nav__item'] a, span > span {
+    font-family: 'Breve Sans Text Book', sans-serif;
+    font-weight: 300;
+}
+
+.bx--side-nav__link--current span {
+    font-family: 'Breve Sans Text Black', sans-serif;
+    font-weight: normal !important;
+}
+
+// [class*='LeftNav-module--side-nav'] {
+//     background-color: rgba(255,255,255,.3) !important;
+//     backdrop-filter: blur(10px) !important;
+// }
+
+#page-title {
+    font-family: 'Breve Display', serif;
+}
+
+[class*='Banner-module'] h1 {
+    font-family: 'Breve Display', serif;
+    text-shadow: 2px 2px 3px #303030;
+}

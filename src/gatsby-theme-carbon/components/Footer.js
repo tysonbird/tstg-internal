@@ -1,5 +1,14 @@
 import React from 'react';
 import Footer from 'gatsby-theme-carbon/src/components/Footer';
+import logo from '../../images/txh-logo-white.svg';
+
+const logoStyle = {
+  width: '150px'
+};
+
+const FooterLogo = () => (
+  <a href="https://texashighways.com" target="_blank" rel="noreferrer"><img style={logoStyle} src={logo} alt="Texas Highways Magazine" /></a>
+);
 
 const Content = ({ buildTime }) => (
   <>
@@ -37,6 +46,6 @@ const links = {
   ],
 };
 
-const CustomFooter = () => <Footer links={links} Content={Content} />;
+const CustomFooter = () => <Footer links={links} Content={Content} Logo={FooterLogo} />;
 
 export default CustomFooter;

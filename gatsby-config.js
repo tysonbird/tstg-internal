@@ -1,22 +1,24 @@
 module.exports = {
   siteMetadata: {
-    title: "Gatsby Theme Carbon",
-    description: "A Gatsby theme for the carbon design system",
-    keywords: "gatsby,theme,carbon",
+    title: "Texas State Travel Guide",
+    description: "Everything you need to know about travel destinations in Texas",
+    keywords: "travel, tourism, things to do",
+    homepageTheme: 'g10'
   },
   plugins: [
     {
       resolve: "gatsby-plugin-manifest",
       options: {
-        name: "Carbon Design Gatsby Theme",
-        icon: "src/images/favicon.svg",
-        short_name: "Gatsby Theme Carbon",
+        name: "Texas State Travel Guide",
+        icon: "src/images/tstg-favicon.svg",
+        short_name: "Travel Guide",
         start_url: "/",
         background_color: "#ffffff",
         theme_color: "#0062ff",
         display: "browser",
+        titleType: 'append'
       },
     },
     'gatsby-theme-carbon'
   ],
-};
+}

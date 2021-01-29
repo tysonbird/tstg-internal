@@ -3,9 +3,9 @@ import { HomepageBanner, HomepageCallout } from 'gatsby-theme-carbon';
 import HomepageTemplate from 'gatsby-theme-carbon/src/templates/Homepage';
 import { calloutLink } from './Homepage.module.scss';
 
-import Carbon from '../../images/carbon.jpg';
+import Tstg from '../../images/tstg.jpg';
 
-const FirstLeftText = () => <p>Callout component</p>;
+const FirstLeftText = () => <p>About this guide</p>;
 
 const FirstRightText = () => (
   <p>
@@ -37,14 +37,14 @@ const SecondRightText = () => (
   </p>
 );
 
-const BannerText = () => <h1>Carbon Gatsby theme</h1>;
+const BannerText = () => <h1>Texas State Travel Guide</h1>;
 
 const customProps = {
-  Banner: <HomepageBanner renderText={BannerText} image={Carbon} />,
+  Banner: <HomepageBanner renderText={BannerText} image={Tstg} />,
   FirstCallout: (
     <HomepageCallout
-      backgroundColor="#030303"
-      color="white"
+      backgroundColor="#ffffff"
+      color="#000000"
       leftText={FirstLeftText}
       rightText={FirstRightText}
     />
