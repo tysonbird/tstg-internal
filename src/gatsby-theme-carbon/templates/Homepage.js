@@ -1,67 +1,39 @@
 import React from 'react';
-import { HomepageBanner, HomepageCallout } from 'gatsby-theme-carbon';
-import HomepageTemplate from 'gatsby-theme-carbon/src/templates/Homepage';
-import { calloutLink } from './Homepage.module.scss';
+import Layout from 'gatsby-theme-carbon/src/components/Layout';
+import Main from 'gatsby-theme-carbon/src/components/Main';
+import useMetadata from 'gatsby-theme-carbon/src/util/hooks/useMetadata';
+import Utils from 'gatsby-theme-carbon/src/components/Utils';
+import Hero from '../components/Hero';
+import NextPrevious from 'gatsby-theme-carbon/src/components/NextPrevious';
 
-import Tstg from '../../images/tstg.jpg';
+import tstg from '../../images/travel-guide-cover-burro-mesa-arch-wide-sky.jpg';
+import logo from '../../images/lets-texas-logo-01.svg';
 
-const FirstLeftText = () => <p>About this guide</p>;
+const Homepage = ({
+  children,
+  location,
+  pageContext,
+}) => {
+  const { frontmatter = {}, titleType } = pageContext;
+  const { title, description, keywords } = frontmatter;
+  const { homepageTheme } = useMetadata();
 
-const FirstRightText = () => (
-  <p>
-    This is a callout component. You can edit the contents by updating the{' '}
-    <a href="https://github.com/carbon-design-system/gatsby-theme-carbon/blob/5fe12de31bb19fbfa2cab7c69cd942f55aa06f79/packages/example/src/gatsby-theme-carbon/templates/Homepage.js">
-      pre-shadowed homepage template
-    </a>
-    . You can also provide <code>color</code> and <code>backgroundColor</code>{' '}
-    props to suit your theme.
-    <a
-      className={calloutLink}
-      href="https://github.com/carbon-design-system/gatsby-theme-carbon/blob/main/packages/example/src/gatsby-theme-carbon/templates/Homepage.js">
-      Homepage source →
-    </a>
-  </p>
-);
-
-const SecondLeftText = () => <p>Callout component</p>;
-
-const SecondRightText = () => (
-  <p>
-    You can also not use these components at all by not providing the callout
-    props to the template or writing your own template.
-    <a
-      className={calloutLink}
-      href="https://github.com/carbon-design-system/gatsby-theme-carbon/blob/main/packages/example/src/gatsby-theme-carbon/templates/Homepage.js">
-      Homepage source →
-    </a>
-  </p>
-);
-
-const BannerText = () => <h1>Texas State Travel Guide</h1>;
-
-const customProps = {
-  Banner: <HomepageBanner renderText={BannerText} image={Tstg} />,
-  FirstCallout: (
-    <HomepageCallout
-      backgroundColor="#ffffff"
-      color="#000000"
-      leftText={FirstLeftText}
-      rightText={FirstRightText}
-    />
-  ),
-  SecondCallout: (
-    <HomepageCallout
-      leftText={SecondLeftText}
-      rightText={SecondRightText}
-      color="white"
-      backgroundColor="#061f80"
-    />
-  ),
+  return (
+    <Layout
+      pageTitle={title}
+      pageDescription={description}
+      pageKeywords={keywords}
+      titleType={titleType}
+      homepage
+      theme={homepageTheme}>
+        <Hero image={tstg} logo={logo}></Hero>
+        <Main>
+          {children}
+        </Main>
+      <NextPrevious isHomepage location={location} pageContext={pageContext} />
+      <Utils />
+    </Layout>
+  );
 };
 
-// spreading the original props gives us props.children (mdx content)
-function ShadowedHomepage(props) {
-  return <HomepageTemplate {...props} {...customProps} />;
-}
-
-export default ShadowedHomepage;
+export default Homepage;

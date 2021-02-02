@@ -48,6 +48,14 @@
     font-style: normal;
     }
 
+$purple: #5F249F;
+$lightblue: #009ad9;
+$green: #008066;
+$teal: #00a2b2;
+$blue: #0076c0;
+$orange: #ca6c18;
+$red: #b22c1b;
+
 header, a, p, h1, h2, h3, li {
     font-family: 'Breve Sans Text Book', sans-serif;
 }
@@ -55,6 +63,58 @@ header, a, p, h1, h2, h3, li {
 // [class*='sidenav-list'] {
 //     background-color: #ffffff;
 // }
+
+.tstg-hero {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 1200px;
+    width: 100%;
+    position: relative;
+}
+
+.tstg-hero-text {
+    text-align: center;
+    right: 100px;
+    top: 200px;
+    position: absolute;
+}
+
+.tstg-hero-text p {
+    font-family: 'Breve Sans Text Semi Bold', sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px 5px #ffffff;
+}
+
+.tstg-hero-text h1 {
+    font-family: 'Breve Display Regular', serif;
+    font-size: 100px;
+    line-height: 1;
+    text-shadow: 1px 1px 10px #ffffff;
+}
+
+.tstg-hero img {
+    width: 300px;
+    display: inline-block;
+    margin-top: 25px;
+}
+
+.tstg-hero a {
+    font-family: 'Breve Sans Text Semi Bold', sans-serif;
+    color: #ffffff;
+    text-shadow: 1px 1px 10px #6D6D6D;
+}
+
+[class*='Callout-module--secondColumn'] p {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+a.bx--side-nav__link[aria-current="page"]::before, a.bx--side-nav__link--current::before { 
+    background-color: $lightblue;
+}
 
 [class*='bx--side-nav__item'] a, span {
     font-family: 'Breve Sans Text Semi Bold', sans-serif;
@@ -77,10 +137,86 @@ header, a, p, h1, h2, h3, li {
 // }
 
 #page-title {
-    font-family: 'Breve Display', serif;
+    font-family: 'Breve Display Regular', serif;
 }
 
 [class*='Banner-module'] h1 {
-    font-family: 'Breve Display', serif;
+    font-family: 'Breve Display Regular', serif;
     text-shadow: 2px 2px 3px #303030;
+}
+
+.listing-hed h3 {
+    font-family: 'Breve Sans Text Black', sans-serif;
+    font-size: 18px;
+    padding: 5px 10px 3px 10px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.listing-item {
+    padding: 10px 10px 5px 10px;
+}
+
+.listing-item h4 {
+    font-family: 'Breve Text Black', serif;
+    text-transform: uppercase;
+}
+
+.listing-item span {
+    color: #404040;
+    text-transform: uppercase;
+}
+
+.listing-purple {
+    background-color: $purple;
+}
+
+.listing-lightblue {
+    background-color: $lightblue;
+}
+
+.listing-green {
+    background-color: $green;
+}
+
+.listing-teal {
+    background-color: $teal;
+}
+
+.listing-blue {
+    background-color: $blue;
+}
+
+.listing-orange {
+    background-color: $orange;
+}
+
+.listing-red {
+    background-color: $red;
+}
+
+.page-table {
+    margin-top: 15px;
+}
+
+@media screen and (max-width:1060px) {
+    .tstg-hero {
+        background-position: 70%;
+        padding-left: 0px;
+    }
+    .tstg-hero-text {
+        top: 100px;
+        right: 50px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .tstg-hero-text {
+        right: 5%;
+        left: 5%;
+    }
+    .tstg-hero-text h1 {
+        font-size: 60px;
+        margin-top: 15px;
+    }
 }

@@ -45,7 +45,7 @@ import React, {
     return (
       <nav
         className={cx(nav, { [open]: switcherIsOpen })}
-        aria-label="IBM Design ecosystem"
+        aria-label="Texas Travel Resources"
         tabIndex="-1"
         style={{ maxHeight }}>
         <ul ref={listRef}>{children}</ul>
@@ -114,7 +114,7 @@ import React, {
       <SwitcherLink href="https://texashighways.com/texas-highways-events-calendar/">
           Events Calendar
       </SwitcherLink>
-      <SwitcherDivider>Travel Department of Transportation</SwitcherDivider>
+      <SwitcherDivider>Texas Department of Transportation</SwitcherDivider>
       <SwitcherLink href="http://dontmesswithtexas.org/">
         Don&rsquo;t mess with Texas &reg;
       </SwitcherLink>

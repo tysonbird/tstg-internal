@@ -10,7 +10,7 @@ module.exports = {
       resolve: "gatsby-plugin-manifest",
       options: {
         name: "Texas State Travel Guide",
-        icon: "src/images/tstg-favicon.svg",
+        icon: "src/images/tstg-favicon.png",
         short_name: "Travel Guide",
         start_url: "/",
         background_color: "#ffffff",
