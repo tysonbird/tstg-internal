@@ -3,10 +3,6 @@ import ResourceLinks from 'gatsby-theme-carbon/src/components/LeftNav/ResourceLi
 
 const links = [
   {
-    title: 'Search All Listings',
-    href: '/things-to-do-in-texas',
-  },
-  {
     title: 'Texas Highways Magazine',
     href: 'https://texashighways.com',
   },

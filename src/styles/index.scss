@@ -56,8 +56,25 @@ $blue: #0076c0;
 $orange: #ca6c18;
 $red: #b22c1b;
 
+// Global type styles
+
 header, a, p, h1, h2, h3, li {
     font-family: 'Breve Sans Text Book', sans-serif;
+}
+
+strong {
+    font-family: 'Breve Sans Text Semi Bold', sans-serif;
+    font-weight: 500;
+}
+
+.tstg-caption {
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+[class*='Markdown-module--h4'] {
+    font-family: 'Breve Sans Text Semi Bold', sans-serif;
+    font-weight: 500;
 }
 
 // [class*='sidenav-list'] {
@@ -68,7 +85,8 @@ header, a, p, h1, h2, h3, li {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    height: 1200px;
+    background-attachment: fixed;
+    height: 1000px;
     width: 100%;
     position: relative;
 }
@@ -113,7 +131,7 @@ header, a, p, h1, h2, h3, li {
 }
 
 a.bx--side-nav__link[aria-current="page"]::before, a.bx--side-nav__link--current::before { 
-    background-color: $lightblue;
+    background-color: $purple;
 }
 
 [class*='bx--side-nav__item'] a, span {
@@ -198,6 +216,15 @@ a.bx--side-nav__link[aria-current="page"]::before, a.bx--side-nav__link--current
 .page-table {
     margin-top: 15px;
 }
+
+// Override for mobile safari background problem
+
+@media (hover: none) {
+    .tstg-hero {
+        background-attachment: initial;
+    }
+ }
+ 
 
 @media screen and (max-width:1060px) {
     .tstg-hero {

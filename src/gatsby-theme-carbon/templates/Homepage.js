@@ -6,7 +6,7 @@ import Utils from 'gatsby-theme-carbon/src/components/Utils';
 import Hero from '../components/Hero';
 import NextPrevious from 'gatsby-theme-carbon/src/components/NextPrevious';
 
-import tstg from '../../images/travel-guide-cover-burro-mesa-arch-wide-sky.jpg';
+import tstg from '../../images/travel-guide-cover-burro-mesa-arch-cover.jpg';
 import logo from '../../images/lets-texas-logo-01.svg';
 
 const Homepage = ({

@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useWindowScroll } from 'beautiful-react-hooks';
 import cx from 'classnames';
 import BackToTopBtn from 'gatsby-theme-carbon/src/components/BackToTopBtn';
-
+import SearchListingsBtn from '../components/SearchListingsBtn';
 import styles from 'gatsby-theme-carbon/src/components/Utils/Utils.module.scss';
 
 const TgUtils = () => {
@@ -22,6 +22,7 @@ const TgUtils = () => {
     <div
       aria-label="This section contains utilities"
       className={cx(styles.container, { [styles.hidden]: hidden })}>
+      <SearchListingsBtn />
       <BackToTopBtn />
     </div>
   );
