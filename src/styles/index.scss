@@ -246,4 +246,7 @@ a.bx--side-nav__link[aria-current="page"]::before, a.bx--side-nav__link--current
         font-size: 60px;
         margin-top: 15px;
     }
+    [class*='Header-module--headerName'] {
+        z-index: 10;
+    }
 }

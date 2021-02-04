@@ -1,0 +1,16 @@
+[
+  {
+    "adID": 62,
+    "advertiser": "Port Aransas/Mustang Island",
+    "url": "https://visitportaransas.com",
+    "filename": "static-port-aransas-mustang-island.jpg",
+    "size": "half"
+  },
+  {
+    "adID": 63,
+    "advertiser": "Georgetown",
+    "url": "http://georgetown.com",
+    "filename": "georgetown",
+    "size": "full"
+  }
+]

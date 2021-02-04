@@ -19,6 +19,9 @@ module.exports = {
         titleType: 'append'
       },
     },
-    'gatsby-theme-carbon'
+    'gatsby-theme-carbon',
+    `gatsby-transformer-sharp`, 
+    `gatsby-plugin-sharp`,
+    `gatsby-plugin-sharp-exif`,
   ],
 }
