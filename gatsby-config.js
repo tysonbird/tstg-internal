@@ -7,17 +7,23 @@ module.exports = {
   },
   plugins: [
     {
-      resolve: "gatsby-plugin-manifest",
+      resolve: 'gatsby-plugin-manifest',
+      options: {
+        icon: `src/images/favicon.png`,
+      },
+    },
+    {
+      resolve: "gatsby-theme-carbon",
       options: {
         name: "Texas State Travel Guide",
-        icon: "src/images/tstg-favicon.png",
+        iconPath: "./src/images/favicon.png",
         short_name: "Travel Guide",
         start_url: "/",
         background_color: "#ffffff",
         theme_color: "#0062ff",
         display: "browser",
-        titleType: 'append'
-      },
+        titleType: 'append',
+      }
     },
     'gatsby-theme-carbon',
     `gatsby-transformer-sharp`, 

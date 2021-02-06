@@ -58,8 +58,26 @@ $red: #b22c1b;
 
 // Global type styles
 
-header, a, p, h1, h2, h3, li {
+header, a, h1, h2, h3, h4, h5, li {
     font-family: 'Breve Sans Text Book', sans-serif;
+}
+
+p {
+    font-family: 'Breve Text Book', serif;
+}
+
+[class*='PageDescription'] p {
+    font-family: 'Breve Sans Text Book', sans-serif;
+}
+
+[class*='blockquote'] {
+    border-top: 2px solid #000000;
+    padding-top: $spacing-05;
+}
+
+.tstg-caption {
+    font-family: 'Breve Sans Text Book', sans-serif;
+    color: $text-02;
 }
 
 strong {
@@ -75,6 +93,10 @@ strong {
 [class*='Markdown-module--h4'] {
     font-family: 'Breve Sans Text Semi Bold', sans-serif;
     font-weight: 500;
+}
+
+[class*='bx--list--unordered'] {
+    width: 100%;
 }
 
 // [class*='sidenav-list'] {
@@ -110,7 +132,8 @@ strong {
     font-family: 'Breve Display Regular', serif;
     font-size: 100px;
     line-height: 1;
-    text-shadow: 1px 1px 10px #ffffff;
+    text-shadow: 1px 1px 10px #ffffff96;
+    color: #000000;
 }
 
 .tstg-hero img {
@@ -144,6 +167,10 @@ a.bx--side-nav__link[aria-current="page"]::before, a.bx--side-nav__link--current
     font-weight: 300;
 }
 
+[class*='inline-notificatio'] p {
+    font-family: 'Breve Sans Text Book', sans-serif;
+}
+
 .bx--side-nav__link--current span {
     font-family: 'Breve Sans Text Black', sans-serif;
     font-weight: normal !important;
@@ -154,7 +181,7 @@ a.bx--side-nav__link[aria-current="page"]::before, a.bx--side-nav__link--current
 //     backdrop-filter: blur(10px) !important;
 // }
 
-#page-title {
+#page-title, #page-title span {
     font-family: 'Breve Display Regular', serif;
 }
 
