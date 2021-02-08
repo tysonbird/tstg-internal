@@ -4,6 +4,7 @@ import { Listing, ListingHed, ListingItem } from '../Listing.js';
 import Caption from '../Caption.js';
 import Ad from '../Ad/Ad.js';
 import RandomAd from '../Ad/RandomAd.js';
+import SearchListings from '../SearchListings/SearchListings.js';
 
 export default {
   ...defaultComponents,
@@ -12,5 +13,6 @@ export default {
   ListingItem,
   Caption,
   Ad,
-  RandomAd
+  RandomAd,
+  SearchListings
 };
