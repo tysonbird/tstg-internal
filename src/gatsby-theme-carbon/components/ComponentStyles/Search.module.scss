@@ -1,0 +1,33 @@
+.searcharea {
+    position: relative;
+}
+
+.searchbox {
+    position: absolute;
+    background-color: #ffffff;
+    top: 64px;
+    padding: 15px 0px 15px 0px;
+    width: 100%;
+    z-index: 10;
+    box-shadow: 2px 2px 5px $ui-03;
+}
+
+.searchbox p {
+    font-family: 'Breve Sans Text Book', sans-serif;
+    font-size: 14px;
+    color: $text-03;
+    padding-left: 15px;
+}
+
+.searchbox ul {
+    line-height: 1.5;
+}
+
+.searchbox li {
+    padding: 5px 15px;
+}
+
+.searchbox li:hover {
+    cursor: pointer;
+    background-color: $ui-03;
+}

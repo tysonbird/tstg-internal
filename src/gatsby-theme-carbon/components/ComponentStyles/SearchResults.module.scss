@@ -1,0 +1,35 @@
+.results {
+    display: flex;
+    display: -ms-flexbox;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.resultsbox {
+    max-width: 47%;
+    margin-top: $spacing-07;
+}
+
+.resultsbox p { 
+    margin-top: $spacing-02;
+    position: relative;
+}
+
+.resultsbox span {
+    padding-right: $spacing-02;
+    color: #404040;
+}
+
+.resultsbox h3 {
+    font-size: 1.2rem;
+    font-family: 'Breve Text Black', serif;
+    text-transform: uppercase;
+    margin-bottom: $spacing-03;
+}
+
+.resultsbox svg {
+    width: 12px;
+    position: absolute;
+    margin-left: $spacing-03;
+    bottom: -4px;
+}
