@@ -3,7 +3,8 @@ module.exports = {
     title: "Texas State Travel Guide",
     description: "Everything you need to know about travel destinations in Texas",
     keywords: "travel, tourism, things to do",
-    homepageTheme: 'g10'
+    homepageTheme: 'g10',
+    isSearchEnabled: false,
   },
   plugins: [
     {
@@ -23,6 +24,7 @@ module.exports = {
         theme_color: "#0062ff",
         display: "browser",
         titleType: 'append',
+        isSearchEnabled: false,
       }
     },
     'gatsby-theme-carbon',

@@ -12,7 +12,8 @@ import { Launch32 } from '@carbon/icons-react';
 class Results extends Component {
   render() {
     const options = this.props.listings.map(r => (
-      <div key={r["AttractionId"]} className={resultsbox}>
+      r["Description for TravelTex.com"] && 
+        <div key={r["AttractionId"]} className={resultsbox}>
         <h3>{r["Attraction Title"]}</h3>
         <p><span>{r["City"]}</span>
         {r["Description for TravelTex.com"]}</p>

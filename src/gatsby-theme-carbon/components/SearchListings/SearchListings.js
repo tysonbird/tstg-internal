@@ -1,6 +1,7 @@
 import React, { Component } from "react";
-import { Form, TextInput } from "carbon-components-react";
+import { Form, TextInput, Loading } from "carbon-components-react";
 import axios from 'axios';
+import queryString from 'query-string';
 import CitySuggestion from './CitySuggestions';
 import AttractionSuggestion from './AttractionSuggestions';
 import Results from './Results';
@@ -20,6 +21,8 @@ class SearchListings extends Component {
    showSuggestions: false,
    renderResults: [],
    loading: false,
+   region: '',
+   loadingRegion: false
  }
 
  getListingsByCity = () => {
@@ -78,6 +81,27 @@ class SearchListings extends Component {
   })
 }
 
+  getAllRegion = () => {
+    let region = this.state.region;
+    this.setState({
+      loadingRegion: true,
+    })
+    axios.post(process.env.GATSBY_LIGHTSPOKE_URL, {
+      login_token: process.env.GATSBY_LIGHTSPOKE_KEY,
+      doc: '10708761',
+      'runtime.q1': region
+  })
+  .then(({ data }) => {
+     this.setState({
+       loadingRegion: false,
+       renderResults: data.RecordList
+     })
+   })
+   .catch(function(error) {
+       console.log(error);
+   })
+  }
+
   getAttractionInfo = () => {
     let searchField = this.state.query;
     searchField = searchField.replace(/ /g, ' +');
@@ -118,12 +142,6 @@ class SearchListings extends Component {
      })
 }
 
-handleBlur = () => {
-    // this.setState({
-    //     showSuggestions: false
-    // })
-}
-
 handleInputChange = () => {
     this.setState({
       query: this.search.value,
@@ -155,6 +173,73 @@ handleInputChange = () => {
     })
   }
 
+  componentDidMount(){
+
+    const parsed = queryString.parse(window.location.search);
+    const region = parsed.region;
+    switch (region) {
+      case 'south-texas-plains':
+        this.setState({
+          query: 'Region: South Texas Plains',
+          region: 'SOUTH TEXAS PLAINS',
+        }, () => {
+        this.getAllRegion();
+        })
+        break;
+      case 'gulf-coast':
+        this.setState({
+          query: 'Region: Gulf Coast',
+          region: 'GULF COAST',
+        }, () => {
+          this.getAllRegion();
+        })
+        break;
+      case 'piney-woods':
+        this.setState({
+          query: 'Region: Piney Woods',
+          region: 'PINEY WOODS',
+        }, () => {
+          this.getAllRegion();
+          })
+        break;
+      case 'prairies-and-lakes':
+        this.setState({
+          query: 'Region: Prairies and Lakes',
+          region: 'PRAIRIES AND LAKES',
+        }, () => {
+          this.getAllRegion();
+          })
+        break;
+        case 'hill-country':
+          this.setState({
+            query: 'Region: Hill Country',
+            region: 'HILL COUNTRY',
+          }, () => {
+            this.getAllRegion();
+            })
+          break;
+        case 'big-bend-country':
+          this.setState({
+            query: 'Region: Big Bend Country',
+            region: 'BIG BEND COUNTRY',
+          }, () => {
+            this.getAllRegion();
+            })
+          break;
+        case 'panhandle-plains':
+          this.setState({
+            query: 'Region: Panhandle Plains',
+            region: 'PANHANDLE PLAINS',
+          }, () => {
+            this.getAllRegion();
+            })
+          break;
+      default:
+        console.log(`No region match for ${region}, or nothing was set`);
+    }
+    
+  }
+
  render() {
      const showCity = (this.state.cityResults.length > 0) ? true : false;
      const showAttraction = (this.state.attractionResults.length > 0) ? true : false;
@@ -162,11 +247,11 @@ handleInputChange = () => {
      <div className={searcharea}>
       <Form>
           <TextInput
-          helperText="Optional helper text here; if message is more than one line text should wrap (~100 character count maximum)"
-          id="test2"
+          helperText=""
+          id="tstgSearch"
           invalidText="Invalid error message."
-          labelText="Text input label"
-          placeholder="Placeholder text"
+          labelText='Try a city name, like "Austin," or an attraction name, like "State Capitol Complex"'
+          placeholder='Search the Travel Guide'
           ref={input => this.search = input}
           onChange={this.handleInputChange}
           onBlur={this.handleBlur}
@@ -180,6 +265,12 @@ handleInputChange = () => {
               </div>
           }
       </Form>
+      {this.state.loadingRegion &&
+        <div>
+          <Loading description="Loading this region" withOverlay={false}/>
+          <p>Loading {this.state.query}</p>
+        </div>
+      }
       {this.state.renderResults &&
           <Results className={resultsbox} listings={this.state.renderResults}></Results>
       }

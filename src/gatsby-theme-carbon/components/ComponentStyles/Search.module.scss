@@ -25,9 +25,11 @@
 
 .searchbox li {
     padding: 5px 15px;
+    cursor: pointer;
 }
 
-.searchbox li:hover {
-    cursor: pointer;
-    background-color: $ui-03;
+@media (hover: hover) {
+    .searchbox li:hover, .searchbox li:focus {
+        background-color: $ui-03;
+    }
 }

@@ -101,6 +101,12 @@ import React, {
       <SwitcherLink href="https://texashighways.com/subscribe/">
         Subscribe
       </SwitcherLink>
+      <SwitcherLink href="https://texashighways.com/newsletter/">
+        Newsletters
+      </SwitcherLink>
+      <SwitcherLink href="https://shop.texashighways.com/">
+        Newsletters
+      </SwitcherLink>
       <SwitcherDivider>Travel Resources</SwitcherDivider>
       <SwitcherLink href="https://drivetexas.org/">
         Traffic and Road Conditions
@@ -113,6 +119,9 @@ import React, {
       </SwitcherLink>
       <SwitcherLink href="https://texashighways.com/texas-highways-events-calendar/">
           Events Calendar
+      </SwitcherLink>
+      <SwitcherLink href="https://www.traveltexas.com/">
+          Travel Texas
       </SwitcherLink>
       <SwitcherDivider>Texas Department of Transportation</SwitcherDivider>
       <SwitcherLink href="http://dontmesswithtexas.org/">
