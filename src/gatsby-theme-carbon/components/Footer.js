@@ -28,7 +28,7 @@ const Content = ({ }) => (
 const links = {
   firstCol: [
     { href: 'https://texashighways.com/about-us', linkText: 'About Us' },
-    { href: 'https://texashighways.com/subscribe', linkText: 'Subscribe' },
+    { href: 'https://ssl.drgnetwork.com/ecom/thm/app/live/subscriptions?org=THM&publ=TH&key_code=JXTSTGF&type=S&gift_key=J5FXGFT', linkText: 'Subscribe' },
     { href: 'https://texashighways.com/newsletter', linkText: 'Newsletters' },
     { href: 'https://texashighways.com/the-magazine', linkText: 'Latest Issue' },
   ],

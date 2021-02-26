@@ -20,7 +20,7 @@ const links = [
   },
   {
     title: 'Subscribe to Texas Highways',
-    href: 'https://texashighways.com/subscribe',
+    href: 'https://ssl.drgnetwork.com/ecom/thm/app/live/subscriptions?org=THM&publ=TH&key_code=JXTSTGL&type=S&gift_key=J5FXGFT',
   },
 ];
 

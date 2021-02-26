@@ -98,7 +98,7 @@ import React, {
       <SwitcherLink href="https://texashighways.com/the-magazine/">
         Latest Issue
       </SwitcherLink>
-      <SwitcherLink href="https://texashighways.com/subscribe/">
+      <SwitcherLink href="https://ssl.drgnetwork.com/ecom/thm/app/live/subscriptions?org=THM&publ=TH&key_code=JXTSTGR&type=S&gift_key=J5FXGFT">
         Subscribe
       </SwitcherLink>
       <SwitcherLink href="https://texashighways.com/newsletter/">
