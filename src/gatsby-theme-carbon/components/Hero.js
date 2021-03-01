@@ -9,7 +9,7 @@ function Hero(props) {
           <div className="tstg-hero-text">
             <p>From the publishers of Texas Highways Magazine</p>
             <h1>Texas State <br/>Travel Guide</h1>
-            <img src={props.logo} alt="Let's Texas"></img>
+            <a href="https://traveltexas.com"><img src={props.logo} alt="Let's Texas"></img></a>
             <p><a href="https://traveltexas.com">TravelTexas.com</a></p>
         </div>
       </div>

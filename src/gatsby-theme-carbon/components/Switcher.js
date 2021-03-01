@@ -105,7 +105,7 @@ import React, {
         Newsletters
       </SwitcherLink>
       <SwitcherLink href="https://shop.texashighways.com/">
-        Newsletters
+        Mercantile
       </SwitcherLink>
       <SwitcherDivider>Travel Resources</SwitcherDivider>
       <SwitcherLink href="https://drivetexas.org/">
@@ -114,14 +114,23 @@ import React, {
       <SwitcherLink href="https://www.txdot.gov/inside-txdot/division/travel/information-centers.html">
           Travel Information Centers
       </SwitcherLink>
-      <SwitcherLink href="https://texashighways.com/free-texas-travel-information/">
-          Free Texas Travel Information
+      <SwitcherLink href="https://www.txdot.gov/inside-txdot/forms-publications/publications/travel.html">
+          Free Travel Literature
       </SwitcherLink>
       <SwitcherLink href="https://texashighways.com/texas-highways-events-calendar/">
           Events Calendar
       </SwitcherLink>
       <SwitcherLink href="https://www.traveltexas.com/">
           Travel Texas
+      </SwitcherLink>
+      <SwitcherLink href="https://www.arts.texas.gov">
+          Texas Commission on the Arts
+      </SwitcherLink>
+      <SwitcherLink href="https://www.thc.texas.gov/">
+          Texas Historical Commission
+      </SwitcherLink>
+      <SwitcherLink href="https://tpwd.texas.gov/">
+          Texas Parks &amp; Wildlife
       </SwitcherLink>
       <SwitcherDivider>Texas Department of Transportation</SwitcherDivider>
       <SwitcherLink href="http://dontmesswithtexas.org/">

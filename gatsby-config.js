@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: "Texas State Travel Guide",
     description: "Everything you need to know about travel destinations in Texas",
-    keywords: "travel, tourism, things to do",
+    keywords: "travel, tourism, things to do, texas, texas highways, travel texas, txdot",
     homepageTheme: 'g10',
     isSearchEnabled: false,
   },
@@ -10,7 +10,9 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
-        icon: `src/images/favicon.png`,
+        name: 'Texas State Travel Guide',
+        short_name: 'TSTG',
+        icon: 'src/images/favicon.png',
       },
     },
     {
@@ -27,9 +29,14 @@ module.exports = {
         isSearchEnabled: false,
       }
     },
-    'gatsby-theme-carbon',
+    {
+      resolve: "gatsby-plugin-google-tagmanager",
+      options: {
+        id: "GTM-NX2L52C",
+        includeInDevelopment: false,
+      },
+    },
     `gatsby-transformer-sharp`, 
     `gatsby-plugin-sharp`,
-    `gatsby-plugin-sharp-exif`,
   ],
 }

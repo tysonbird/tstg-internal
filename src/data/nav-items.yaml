@@ -44,10 +44,10 @@
       path: /regions/panhandle-plains
 - title: Advertiser Index
   pages:
-    - path: /guide-to-advertisers
+    - path: /advertiser-index
 - title: Texas Beverage Tour
   pages: 
-    - path: /wineries-of-texas
+    - path: /texas-beverage-tour
 - title: Search All Listings
   pages:
     - path: /things-to-do-in-texas

@@ -157,6 +157,10 @@ a.bx--side-nav__link[aria-current="page"]::before, a.bx--side-nav__link--current
     background-color: $purple;
 }
 
+.bx--side-nav__item--active .bx--side-nav__submenu[aria-expanded="false"]::before {
+    background-color: $purple;
+}
+
 [class*='bx--side-nav__item'] a, span {
     font-family: 'Breve Sans Text Semi Bold', sans-serif;
     font-weight: normal;
@@ -240,6 +244,38 @@ a.bx--side-nav__link[aria-current="page"]::before, a.bx--side-nav__link--current
     background-color: $red;
 }
 
+.region-loader-purple .bx--loading__stroke {
+    stroke: $purple;
+}
+
+.region-loader-lightblue .bx--loading__stroke {
+    stroke: $lightblue;
+}
+
+.region-loader-blue .bx--loading__stroke {
+    stroke: $blue;
+}
+
+.region-loader-green .bx--loading__stroke {
+    stroke: $green;
+}
+
+.region-loader-teal .bx--loading__stroke {
+    stroke: $teal;
+}
+
+.region-loader-blue .bx--loading__stroke {
+    stroke: $blue;
+}
+
+.region-loader-orange .bx--loading__stroke {
+    stroke: $orange;
+}
+
+.region-loader-red .bx--loading__stroke {
+    stroke: $red;
+}
+
 .page-table {
     margin-top: 15px;
 }
@@ -258,6 +294,19 @@ select:focus,
 textarea {
   font-size: 16px;
   font-family: 'Breve Sans Text Book', sans-serif;
+}
+
+.region-title-map {
+    width: 100px;
+    transform: rotate(-10deg);
+}
+
+a.bx--side-nav__link:nth-of-type(2n)::before {
+    background-color: red;
+}
+
+.region-all-leadin {
+    margin-top: 10px;
 }
 
 // Override for mobile safari background problem

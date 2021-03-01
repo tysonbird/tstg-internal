@@ -3,6 +3,13 @@ title: Prairies and Lakes
 description: From fast-moving rides to slow-moving experiences, the heartland of Texas offers something for everyone
 ---
 
+export const Title = () => (
+  <span>
+    <img class="region-title-map" src={`../images/map-prairies-lakes.png`}/>
+    Prairies and Lakes
+  </span>
+);
+
 <PageDescription>
 
 From fast-moving rides to slow-moving experiences, the heartland of Texas offers something for everyone
@@ -110,6 +117,13 @@ While Netflix fans will eventually lose interest in Corsicana and its championsh
 </Column>
 </Row>
 
+<Row>
+<Column colSm={12} colMd={6} colLg={8}>
+<RegionListing title="Prairies and Lakes" color="teal" region="PRAIRIES AND LAKES"/>
+</Column>
+</Row>
+
+<!--
 <FeatureCard
   title="Search all cities and listings in the Piney Woods"
   actionIcon="arrowRight"
@@ -120,3 +134,4 @@ While Netflix fans will eventually lose interest in Corsicana and its championsh
 
 </FeatureCard>
 <Caption>Big Thicket National Preserve, 10 Mile Bayou. Photo by Will van Overbeek.</Caption>
+-->

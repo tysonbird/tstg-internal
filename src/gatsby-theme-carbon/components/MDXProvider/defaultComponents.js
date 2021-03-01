@@ -2,9 +2,10 @@ import defaultComponents from 'gatsby-theme-carbon/src/components/MDXProvider/de
 
 import { Listing, ListingHed, ListingItem } from '../Listing.js';
 import Caption from '../Caption.js';
-import Ad from '../Ad/Ad.js';
-import RandomAd from '../Ad/RandomAd.js';
+import AdGroup from '../Ad/AdGroup.js';
 import SearchListings from '../SearchListings/SearchListings.js';
+import SimpleSearch from '../SearchListings/SimpleSearch.js';
+import RegionListing from '../RegionListings.js'
 
 export default {
   ...defaultComponents,
@@ -12,7 +13,8 @@ export default {
   ListingHed,
   ListingItem,
   Caption,
-  Ad,
-  RandomAd,
-  SearchListings
+  SearchListings,
+  SimpleSearch,
+  RegionListing,
+  AdGroup,
 };
