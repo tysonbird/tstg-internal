@@ -3,6 +3,13 @@ title: Gulf Coast
 description: Beaches, art, history, and wildlife merge in a place where big-city sophistication meets seaside relaxation
 ---
 
+export const Title = () => (
+  <span>
+    <img class="region-title-map" src={`../images/map-gulf-coast.png`}/>
+    Gulf Coast
+  </span>
+);
+
 <PageDescription>
 
 Beaches, art, history, and wildlife merge in a place where big-city sophistication meets seaside relaxation
@@ -96,6 +103,14 @@ It is “a place for private thoughts,” West says, “and it serves as a place
 </Column>
 </Row>
 
+<Row>
+<Column colSm={12} colMd={6} colLg={8}>
+<RegionListing title="Gulf Coast" color="lightblue" region="GULF COAST"/>
+</Column>
+</Row>
+
+<!--
+
 <FeatureCard
   title="Search all cities and listings in the Gulf Coast"
   actionIcon="arrowRight"
@@ -106,3 +121,5 @@ It is “a place for private thoughts,” West says, “and it serves as a place
 
 </FeatureCard>
 <Caption>Nasa Level 9 Tour at Johnson Space Center. Photo by Will van Overbeek.</Caption>
+
+-->

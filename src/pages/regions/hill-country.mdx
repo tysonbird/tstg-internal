@@ -3,6 +3,13 @@ title: Hill Country
 description: A bucolic landscape rich with cultural and natural attractions reflects Texas’ rural heritage
 ---
 
+export const Title = () => (
+  <span>
+    <img class="region-title-map" src={`../images/map-hill-country.png`}/>
+    Hill Country
+  </span>
+);
+
 <PageDescription>
 
 A bucolic landscape rich with cultural and natural attractions reflects Texas’ rural heritage
@@ -96,4 +103,10 @@ For more information, directions, and amenities, get your [free mobile guide to 
 
 </Column>
 
+</Row>
+
+<Row>
+<Column colSm={12} colMd={6} colLg={8}>
+<RegionListing title="Hill Country" color="blue" region="HILL COUNTRY"/>
+</Column>
 </Row>

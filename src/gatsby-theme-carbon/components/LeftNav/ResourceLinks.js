@@ -16,7 +16,19 @@ const links = [
   },
   {
     title: 'Travel Texas',
-    href: 'https://traveltexas.gov',
+    href: 'https://traveltexas.com',
+  },
+  {
+    title: 'Texas Commission on the Arts',
+    href: 'https://www.arts.texas.gov',
+  },
+  {
+    title: 'Texas Historical Commission',
+    href: 'https://www.thc.texas.gov/',
+  },
+  {
+    title: 'Texas Parks & Wildlife',
+    href: 'https://tpwd.texas.gov/',
   },
   {
     title: 'Subscribe to Texas Highways',

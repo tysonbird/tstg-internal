@@ -1,0 +1,560 @@
+[
+    {
+      "ad": "Destination El Paso",
+      "url": "https://visitelpaso.com",
+      "filename": "el-paso.jpg",
+      "id": "ad01"
+    },
+    {
+      "ad": "Discover Odessa",
+      "url": "https://discoverodessa.org/",
+      "filename": "discover-odessa.jpg",
+      "id": "ad02"
+    },
+    {
+      "ad": "Fort Stockton CVB",
+      "url": "http://historicfortstocktontx.com/",
+      "filename": "fort-stockton.jpg",
+      "id": "ad03"
+    },
+    {
+      "ad": "Visit Big Bend - Brewster County Tourism Council",
+      "url": "https://visitbigbend.com/",
+      "filename": "visit-big-bend.jpg",
+      "id": "ad04"
+    },
+    {
+      "ad": "Baytown, City of",
+      "url": "https://www.visitbaytown.com/",
+      "filename": "baytown.jpg",
+      "id": "ad05"
+    },
+    {
+      "ad": "Beaumont CVB",
+      "url": "https://www.beaumontcvb.com/",
+      "filename": "beaumont.jpg",
+      "id": "ad06"
+    },
+    {
+      "ad": "Brownsville CVB",
+      "url": "https://brownsville.org/",
+      "filename": "brownsville.jpg",
+      "id": "ad07"
+    },
+    {
+      "ad": "City of Alvin",
+      "url": "https://visitalvin.com/",
+      "filename": "alvin.jpg",
+      "id": "ad08"
+    },
+    {
+      "ad": "Corpus Christi CVB",
+      "url": "https://visitcorpuschristitx.org",
+      "filename": "static-visit-corpus-christi.jpg",
+      "id": "ad09"
+    },
+    {
+      "ad": "Cove Harbor Coach Resort",
+      "url": "https://www.coveharborrv.com",
+      "filename": "static-cove-harbor-coach-resort.jpg",
+      "id": "ad10"
+    },
+    {
+      "ad": "Deer Park, City of",
+      "url": "http://visit.deerparktx.org/",
+      "filename": "deer-park.jpg",
+      "id": "ad11"
+    },
+    {
+      "ad": "Harlingen, City of, CVB",
+      "url": "https://visitharlingentexas.com/",
+      "filename": "harlingen.jpg",
+      "id": "ad12"
+    },
+    {
+      "ad": "Kingsville, City of, Tourism Dept.",
+      "url": "https://kingsvilletexas.com/",
+      "filename": "kingsville.jpg",
+      "id": "ad13"
+    },
+    {
+      "ad": "La Porte, City of",
+      "url": "http://www.visitlaportetx.com/",
+      "filename": "la-porte.jpg",
+      "id": "ad14"
+    },
+    {
+      "ad": "League City, City of",
+      "url": "https://www.leaguecitycvb.com/",
+      "filename": "league-city.jpg",
+      "id": "ad15"
+    },
+    {
+      "ad": "Pearland CVB",
+      "url": "http://visitpearland.com/birding",
+      "filename": "pearland.jpg",
+      "id": "ad16"
+    },
+    {
+      "ad": "Port Aransas/Mustang Island",
+      "url": "https://visitportaransas.com",
+      "filename": "static-port-aransas-mustang-island.jpg",
+      "id": "ad17"
+    },
+    {
+      "ad": "Port Isabel, City of",
+      "url": "https://portisabel-texas.com/blog/",
+      "filename": "port-isabel.jpg",
+      "id": "ad18"
+    },
+    {
+      "ad": "South Padre Island CVB",
+      "url": "https://www.sopadre.com/",
+      "filename": "south-padre.jpg",
+      "id": "ad19"
+    },
+    {
+      "ad": "Victoria CVB",
+      "url": "https://www.explorevictoriatexas.com/",
+      "filename": "victoria.jpg",
+      "id": "ad20"
+    },
+    {
+      "ad": "Visit Bay City",
+      "url": "https://visitbaycitytx.com/",
+      "filename": "visit-bay-city.jpg",
+      "id": "ad21"
+    },
+    {
+      "ad": "Webster, City of",
+      "url": "https://www.spacecoasttexas.com/",
+      "filename": "webster.jpg",
+      "id": "ad22"
+    },
+    {
+      "ad": "Austin Parks & Recreation, City of",
+      "url": "https://austintexas.gov/historicatxparks",
+      "filename": "static-austin-parks-and-recreation.jpg",
+      "id": "ad23"
+    },
+    {
+      "ad": "Bandera County CVB",
+      "url": "https://www.banderacowboycapital.com/",
+      "filename": "bandera.jpg",
+      "id": "ad24"
+    },
+    {
+      "ad": "Blanco Chamber of Commerce",
+      "url": "https://www.visitblancotexas.com/",
+      "filename": "blanco.jpg",
+      "id": "ad25"
+    },
+    {
+      "ad": "Bullock Texas State History Museum",
+      "url": "https://www.thestoryoftexas.com/",
+      "filename": "bullock-texas-state-history-museum.jpg",
+      "id": "ad26"
+    },
+    {
+      "ad": "Cedar Park, City of",
+      "url": "https://cedarparkfun.com/",
+      "filename": "cedar-park.jpg",
+      "id": "ad27"
+    },
+    {
+      "ad": "Comfort Chamber of Commerce",
+      "url": "https://www.comfortchamber.com/",
+      "filename": "comfort.jpg",
+      "id": "ad28"
+    },
+    {
+      "ad": "Fredericksburg CVB",
+      "url": "https://www.visitfredericksburgtx.com/",
+      "filename": "fredericksburg.jpg",
+      "id": "ad29"
+    },
+    {
+      "ad": "Georgetown CVB",
+      "url": "https://visit.georgetown.org/",
+      "filename": "georgetown.jpg",
+      "id": "ad30"
+    },
+    {
+      "ad": "Kerrville CVB",
+      "url": "https://www.kerrvilletexascvb.com/",
+      "filename": "kerrville.jpg",
+      "id": "ad31"
+    },
+    {
+      "ad": "Marble Falls/Lake LBJ Chamber of Commerce & CVB",
+      "url": "https://visitmarblefalls.org",
+      "filename": "static-marble-falls-wide.jpg",
+      "id": "ad32"
+    },
+    {
+      "ad": "Round Rock CVB",
+      "url": "https://goroundrock.com",
+      "filename": "static-round-rock.jpg",
+      "id": "ad33"
+    },
+    {
+      "ad": "Texas Dept of Agriculture - Specialty  Crop Marketing",
+      "url": "https://gotexan.org",
+      "filename": "static-texas-dept-of-agriculture.jpg",
+      "id": "ad34"
+    },
+    {
+      "ad": "Texas Parks & Wildlife",
+      "url": "https://www.TexasStateParks.org",
+      "filename": "static-texas-parks-wildlife.jpg",
+      "id": "ad35"
+    },
+    {
+      "ad": "Abilene CVB",
+      "url": "https://abilenevisitors.com",
+      "filename": "static-abilene.jpg",
+      "id": "ad36"
+    },
+    {
+      "ad": "Amarillo CVB",
+      "url": "https://www.visitamarillo.com/",
+      "filename": "amarillo-cvb.jpg",
+      "id": "ad37"
+    },
+    {
+      "ad": "Andrews Chamber of Commerce & CVB",
+      "url": "https://wildwildwestfest.com/",
+      "filename": "ad-andrews.jpg",
+      "id": "ad38"
+    },
+    {
+      "ad": "Big Spring CVB",
+      "url": "http://www.visitbigspring.com",
+      "filename": "big-spring.jpg",
+      "id": "ad39"
+    },
+    {
+      "ad": "Dalhart Area Chamber of Commerce & Visitors Center",
+      "url": "https://www.facebook.com/dalhartchamber/",
+      "filename": "dalhart.jpg",
+      "id": "ad40"
+    },
+    {
+      "ad": "Dumas Moore County Chamber of Commerce",
+      "url": "https://dumaschamber.com/",
+      "filename": "dumas.jpg",
+      "id": "ad41"
+    },
+    {
+      "ad": "Panhandle-Plains Historical Museum",
+      "url": "https://www.panhandleplains.org/",
+      "filename": "panhandle-plains-museum.jpg",
+      "id": "ad42"
+    },
+    {
+      "ad": "Red River Valley Museum",
+      "url": "https://www.rrvmuseum.org/",
+      "filename": "red-river-valley-museum.jpg",
+      "id": "ad43"
+    },
+    {
+      "ad": "San Angelo CVB",
+      "url": "https://www.discoversanangelo.com/",
+      "filename": "san-angelo.jpg",
+      "id": "ad44"
+    },
+    {
+      "ad": "Visit Lubbock",
+      "url": "https://visitlubbock.org/",
+      "filename": "visit-lubbock.jpg",
+      "id": "ad45"
+    },
+    {
+      "ad": "City of Mineola",
+      "url": "https://VisitMineola.com",
+      "filename": "static-city-of-mineola.jpg",
+      "id": "ad46"
+    },
+    {
+      "ad": "Henderson, City of",
+      "url": "http://www.visithendersontx.com/",
+      "filename": "henderson.jpg",
+      "id": "ad47"
+    },
+    {
+      "ad": "Huntsville, City of",
+      "url": "http://huntsvilletexas.com/",
+      "filename": "huntsville.jpg",
+      "id": "ad48"
+    },
+    {
+      "ad": "Longview, City of, Tourism",
+      "url": "https://www.visitlongviewtexas.com/",
+      "filename": "longview.jpg",
+      "id": "ad49"
+    },
+    {
+      "ad": "Marshall, City of, Visit Marshall",
+      "url": "http://visitmarshalltexas.com/",
+      "filename": "marshall.jpg",
+      "id": "ad50"
+    },
+    {
+      "ad": "Palestine Visitors Center",
+      "url": "https://www.visitpalestine.com/",
+      "filename": "palestine.jpg",
+      "id": "ad51"
+    },
+    {
+      "ad": "Shenandoah CVB",
+      "url": "https://www.visitshenandoahtx.com/",
+      "filename": "shenandoah.jpg",
+      "id": "ad52"
+    },
+    {
+      "ad": "Texarkana Chamber of Commerce",
+      "url": "https://www.texarkana.org/",
+      "filename": "texarkana.jpg",
+      "id": "ad53"
+    },
+    {
+      "ad": "The Woodlands CVB",
+      "url": "https://www.visitthewoodlands.com/choose-your-adventure/#utm_source=Texas-St-Travel-Guide-2021&utm_medium=print&utm_campaign=leisure",
+      "filename": "the-woodlands.jpg",
+      "id": "ad54"
+    },
+    {
+      "ad": "Visit Conroe CVB",
+      "url": "https://visitconroe.com",
+      "filename": "static-visit-conroe.jpg",
+      "id": "ad55"
+    },
+    {
+      "ad": "Visit Kilgore",
+      "url": "https://visitkilgore.com/",
+      "filename": "static-visit-kilgore.jpg",
+      "id": "ad56"
+    },
+    {
+      "ad": "Visit Tyler",
+      "url": "https://visittyler.com/",
+      "filename": "visit-tyler.jpg",
+      "id": "ad57"
+    },
+    {
+      "ad": "Cameron Park Zoo",
+      "url": "https://www.cameronparkzoo.com/",
+      "filename": "cameron-park-zoo.jpg",
+      "id": "ad58"
+    },
+    {
+      "ad": "Canton Visitors Bureau, City of",
+      "url": "https://www.firstmondaycanton.com/",
+      "filename": "canton.jpg",
+      "id": "ad59"
+    },
+    {
+      "ad": "Celina Economic Development Corporation",
+      "url": "https://www.lifeincelinatx.com/",
+      "filename": "celina.jpg",
+      "id": "ad60"
+    },
+    {
+      "ad": "City of Frisco, Visit Frisco",
+      "url": "https://www.visitfrisco.com/",
+      "filename": "frisco.jpg",
+      "id": "ad61"
+    },
+    {
+      "ad": "Cleburne Chamber of Commerce",
+      "url": "https://www.visitcleburne.com/",
+      "filename": "cleburne.jpg",
+      "id": "ad62"
+    },
+    {
+      "ad": "Cuero Chamber of Commerce, Agriculture & Visitors Bureau",
+      "url": "https://cuero.org/",
+      "filename": "cuero.jpg",
+      "id": "ad63"
+    },
+    {
+      "ad": "Denton CVB",
+      "url": "https://www.discoverdenton.com/",
+      "filename": "denton.jpg",
+      "id": "ad64"
+    },
+    {
+      "ad": "George W. Bush Presidential Library and Museum",
+      "url": "https://www.bushcenter.org/",
+      "filename": "george-w-bush-library.jpg",
+      "id": "ad65"
+    },
+    {
+      "ad": "Glen Rose CVB",
+      "url": "https://www.glenrosetexas.org/visitor/",
+      "filename": "glen-rose.jpg",
+      "id": "ad66"
+    },
+    {
+      "ad": "Gonzales, City of",
+      "url": "https://www.gonzalestx.travel/",
+      "filename": "gonzales.jpg",
+      "id": "ad67"
+    },
+    {
+      "ad": "Grapevine CVB",
+      "url": "https://www.grapevinetexasusa.com/",
+      "filename": "grapevine.jpg",
+      "id": "ad68"
+    },
+    {
+      "ad": "Greenville CVB",
+      "url": "http://www.ci.greenville.tx.us/1088/Visit",
+      "filename": "greenville.jpg",
+      "id": "ad69"
+    },
+    {
+      "ad": "Irving Arts Center",
+      "url": "https://www.irvingartscenter.com/",
+      "filename": "irving-arts-center.jpg",
+      "id": "ad70"
+    },
+    {
+      "ad": "Irving CVB",
+      "url": "https://www.irvingtexas.com/",
+      "filename": "irving.jpg",
+      "id": "ad71"
+    },
+    {
+      "ad": "Lewisville Visitors Bureau, City of",
+      "url": "https://www.visitlewisville.com/",
+      "filename": "lewisville.jpg",
+      "id": "ad72"
+    },
+    {
+      "ad": "McKinney CVB",
+      "url": "https://www.visitmckinney.com/stg",
+      "filename": "mckinney.jpg",
+      "id": "ad73"
+    },
+    {
+      "ad": "Mesquite CVB",
+      "url": "https://www.visitmesquitetx.com/MudPies",
+      "filename": "static-mesquite-cvb.jpg",
+      "id": "ad74"
+    },
+    {
+      "ad": "Nacogdoches CVB",
+      "url": "https://www.visitnacogdoches.org/",
+      "filename": "nacogdoches.jpg",
+      "id": "ad75"
+    },
+    {
+      "ad": "Paris CVB/Lamar County Chamber of Commerce",
+      "url": "https://netexastrail.org/",
+      "filename": "paris.jpg",
+      "id": "ad76"
+    },
+    {
+      "ad": "Rockdale, City of",
+      "url": "http://rockdalecityhall.com/9/Visitors",
+      "filename": "rockdale.jpg",
+      "id": "ad77"
+    },
+    {
+      "ad": "The Colony CVB",
+      "url": "https://visitthecolonytx.com/",
+      "filename": "the-colony.jpg",
+      "id": "ad78"
+    },
+    {
+      "ad": "Visit Bastrop",
+      "url": "https://visitbastrop.com",
+      "filename": "static-visit-bastrop.jpg",
+      "id": "ad79"
+    },
+    {
+      "ad": "Visit Cedar Hill Tx-Cedar Hill Tourims",
+      "url": "https://www.visitcedarhilltx.com",
+      "filename": "static-visit-cedar-hill.jpg",
+      "id": "ad80"
+    },
+    {
+      "ad": "Visit College Station",
+      "url": "https://visit.cstx.gov",
+      "filename": "static-visit-college-station.jpg",
+      "id": "ad81"
+    },
+    {
+      "ad": "Visit Garland, Garland CVB",
+      "url": "http://cantresistgarland.com/",
+      "filename": "visit-garland.jpg",
+      "id": "ad82"
+    },
+    {
+      "ad": "Visit Granbury, City of Grandbury",
+      "url": "https://www.visitgranbury.com/",
+      "filename": "visit-granbury.jpg",
+      "id": "ad83"
+    },
+    {
+      "ad": "Visit Plano, Plano CVB",
+      "url": "https://www.visitplano.com/",
+      "filename": "static-visit-plano.jpg",
+      "id": "ad84"
+    },
+    {
+      "ad": "Waco, City of, CVB",
+      "url": "https://wacoheartoftexas.com/",
+      "filename": "waco.jpg",
+      "id": "ad85"
+    },
+    {
+      "ad": "Weatherford Chamber of Commerce",
+      "url": "https://www.experienceweatherford.com/",
+      "filename": "weatherford.jpg",
+      "id": "ad86"
+    },
+    {
+      "ad": "Balcones Heights, City of",
+      "url": "http://sanantoniocentral.org",
+      "filename": "balcones-heights.jpg",
+      "id": "ad87"
+    },
+    {
+      "ad": "Laredo CVB",
+      "url": "https://www.visitlaredo.com/",
+      "filename": "laredo.jpg",
+      "id": "ad88"
+    },
+    {
+      "ad": "Natural Bridge Caverns, Inc",
+      "url": "https://naturalbridgecaverns.com/",
+      "filename": "natural-bridge-caverns.jpg",
+      "id": "ad89"
+    },
+    {
+      "ad": "Natural Bridge Wildlife Ranch",
+      "url": "https://www.wildliferanchtexas.com/",
+      "filename": "wildlife-ranch-texas.jpg",
+      "id": "ad90"
+    },
+    {
+      "ad": "San Antonio Visitor Alliance",
+      "url": "https://insanow.com/",
+      "filename": "san-antonio-visitor-alliance.jpg",
+      "id": "ad91"
+    },
+    {
+      "ad": "Visit San Antonio",
+      "url": "https://www.visitsanantonio.com/",
+      "filename": "visit-san-antonio.jpg",
+      "id": "ad92"
+    },
+    {
+      "ad": "Texas Tourism Dept",
+      "url": "https://traveltexas.com/",
+      "filename": "texas-tourism-half-page-beach.jpg",
+      "id": "ad93"
+    }
+  ]

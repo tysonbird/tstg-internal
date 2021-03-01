@@ -3,6 +3,13 @@ title: Piney Woods
 description: Beaches, art, history, and wildlife merge in a place where big-city sophistication meets seaside relaxation
 ---
 
+export const Title = () => (
+  <span>
+    <img class="region-title-map" src={`../images/map-piney-woods.png`}/>
+    Piney Woods
+  </span>
+);
+
 <PageDescription>
 
 History and nature attract visitors to this region cloaked in majestic forests and beaming with Southern charm
@@ -78,6 +85,13 @@ Just 20 minutes from Athens, Purtis Creek State Park—with its shaded campsites
 </Column>
 </Row>
 
+<Row>
+<Column colSm={12} colMd={6} colLg={8}>
+<RegionListing title="Piney Woods" color="green" region="PINEY WOODS"/>
+</Column>
+</Row>
+
+<!-- 
 <FeatureCard
   title="Search all cities and listings in the Piney Woods"
   actionIcon="arrowRight"
@@ -88,3 +102,4 @@ Just 20 minutes from Athens, Purtis Creek State Park—with its shaded campsites
 
 </FeatureCard>
 <Caption>Big Thicket National Preserve, 10 Mile Bayou. Photo by Will van Overbeek.</Caption>
+-->

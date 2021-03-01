@@ -4,6 +4,7 @@ import Main from 'gatsby-theme-carbon/src/components/Main';
 import useMetadata from 'gatsby-theme-carbon/src/util/hooks/useMetadata';
 import Utils from 'gatsby-theme-carbon/src/components/Utils';
 import Hero from '../components/Hero';
+import Caption from '../components/Caption';
 import NextPrevious from 'gatsby-theme-carbon/src/components/NextPrevious';
 
 import tstg from '../../images/travel-guide-cover-burro-mesa-arch-cover.jpg';
@@ -28,6 +29,7 @@ const Homepage = ({
       theme={homepageTheme}>
         <Hero image={tstg} logo={logo}></Hero>
         <Main>
+          <Caption>Photo by E. Dan Klepper</Caption>
           {children}
         </Main>
       <NextPrevious isHomepage location={location} pageContext={pageContext} />
