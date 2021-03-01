@@ -41,7 +41,7 @@ class RegionListing extends Component {
             <div className={`region-loader-${this.props.color}`}>
             {this.state.loading && <InlineLoading description="Loading..." />}
             </div>
-            <Results className={resultsbox} listings={this.state.renderResults}></Results>
+            <Results className={resultsbox} ads={this.props.ads} listings={this.state.renderResults}></Results>
             </div>
         )
     }

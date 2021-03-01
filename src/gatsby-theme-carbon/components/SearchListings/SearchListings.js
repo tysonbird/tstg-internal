@@ -241,8 +241,14 @@ handleInputChange = () => {
   }
 
  render() {
-     const showCity = (this.state.cityResults.length > 0) ? true : false;
-     const showAttraction = (this.state.attractionResults.length > 0) ? true : false;
+    var showCity;
+    var showAttraction;
+    if (this.state.cityResults !== undefined) {
+      showCity = (this.state.cityResults.length > 0) ? true : false;
+    }
+    if (this.state.attractionResults !== undefined) {
+      showAttraction = (this.state.attractionResults.length > 0) ? true : false;
+    }
    return (
      <div className={searcharea}>
       <Form>
