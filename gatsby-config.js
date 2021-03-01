@@ -1,3 +1,7 @@
+require("dotenv").config({
+  path: `.env.${process.env.NODE_ENV}`,
+})
+
 module.exports = {
   siteMetadata: {
     title: "Texas State Travel Guide",
@@ -38,5 +42,7 @@ module.exports = {
     },
     `gatsby-transformer-sharp`, 
     `gatsby-plugin-sharp`,
+    `gatsby-plugin-sharp-exif`,
+    'gatsby-plugin-htaccess',
   ],
 }
