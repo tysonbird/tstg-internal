@@ -11,3 +11,7 @@
     margin-bottom: $spacing-03;
     border-bottom: 1px solid $button-separator;
 }
+
+.resultsbox[class*='ad'] {
+    width: 50%;
+}

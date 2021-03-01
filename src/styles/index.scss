@@ -309,6 +309,13 @@ a.bx--side-nav__link:nth-of-type(2n)::before {
     margin-top: 10px;
 }
 
+// Ad override from component styles for inline
+
+[class*="SearchResults-module--results"] > [class*="Ads-module--ad"] {
+    width: 47%;
+    margin-top: $spacing-05;
+}
+
 // Override for mobile safari background problem
 
 @media (hover: none) {
@@ -340,5 +347,8 @@ a.bx--side-nav__link:nth-of-type(2n)::before {
     }
     [class*='Header-module--headerName'] {
         z-index: 10;
+    }
+    [class*="SearchResults-module--results"] > [class*="Ads-module--ad"] {
+        width: 98%;
     }
 }
