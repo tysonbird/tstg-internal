@@ -316,6 +316,67 @@ a.bx--side-nav__link:nth-of-type(2n)::before {
     margin-top: $spacing-05;
 }
 
+// Global searchbox 
+
+.bx--search-input:focus {
+    outline: 2px solid $purple;
+}
+
+.bx--search-close:focus, .bx--search-button:focus {
+    outline: 2px solid $purple;
+}
+
+.bx--search-close:focus::before, .bx--search-close:active::before {
+    background-color: $purple;
+}
+
+.react-autosuggest__container {
+    position: relative;
+}
+
+.react-autosuggest__suggestions-container--open {
+    position: absolute;
+    background-color: #ffffff;
+    top: 49px;
+    padding: 15px 0px 15px 0px;
+    width: 100%;
+    z-index: 10;
+    box-shadow: 2px 2px 5px $ui-03;
+}
+
+.react-autosuggest__suggestions-container p {
+    font-family: 'Breve Sans Text Book', sans-serif;
+    font-size: 14px;
+    color: $text-03;
+    padding-left: 15px;
+}
+
+.react-autosuggest__suggestions-container ul {
+    line-height: 1.5;
+}
+
+.react-autosuggest__suggestions-container li {
+    padding: 5px 15px;
+    cursor: pointer;
+}
+
+.react-autosuggest__suggestions-list li > span {
+    font-family: 'Breve Sans Text Book', sans-serif;
+    font-weight: 300;
+}
+
+.bx--inline-loading--error {
+    fill: $red;
+}
+
+.bx--inline-loading__text {
+    font-family: 'Breve Sans Text Book', sans-serif;
+}
+
+.react-autosuggest__suggestion--highlighted {
+    background-color: $ui-03;
+}
+
 // Override for mobile safari background problem
 
 @media (hover: none) {

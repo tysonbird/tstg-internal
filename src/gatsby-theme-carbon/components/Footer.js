@@ -11,13 +11,13 @@ const FooterLogo = () => (
   <a href="https://texashighways.com" target="_blank" rel="noreferrer"><img style={logoStyle} src={logo} alt="Texas Highways Magazine" /></a>
 );
 
-const Content = ({ }) => (
+const Content = () => (
   <>
     <p>
       The Texas State Travel Guide is published by Texas Highways Magazine, the official travel magazine of Texas.
     </p>
 
-    <p><a href="https://facebook.com/TexasHighways" target="_blank" rel="noreferrer noopener"><LogoFacebook32/></a><a href="https://twitter.com/TexasHighways" target="_blank" rel="noreferrer noopener"><LogoTwitter32/></a><a href="https://instagram.com/TexasHighways" target="_blank" rel="noreferrer noopener"><LogoInstagram32/></a></p>
+    <p><a arial-label="Facebook" title="Facebook" href="https://facebook.com/TexasHighways" target="_blank" rel="noreferrer noopener"><LogoFacebook32/></a><a href="https://twitter.com/TexasHighways" title="Twitter" target="_blank" rel="noreferrer noopener" arial-label="Twitter"><LogoTwitter32/></a><a title="Instagram" href="https://instagram.com/TexasHighways" target="_blank" rel="noreferrer noopener" arial-label="Instagram"><LogoInstagram32/></a></p>
 
     <p><a href="https://texashighways.com/privacy-policy">Privacy Policy</a></p>
 
