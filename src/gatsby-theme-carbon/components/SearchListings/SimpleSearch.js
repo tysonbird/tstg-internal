@@ -3,6 +3,7 @@ import Autosuggest from 'react-autosuggest';
 import axios from 'axios';
 import { Search, InlineLoading } from 'carbon-components-react';
 import Results from './Results.js';
+import { Launch32 } from '@carbon/icons-react';
 import { resultsbox } from '../ComponentStyles/Search.module.scss';
 
 function titleCase(str) {
@@ -80,6 +81,8 @@ class SimpleSearch extends React.Component {
         renderResults: [], 
         loading: false,
         noResults: false,
+        cityInfo: '',
+        cityName: '',
       }
     }
 
@@ -93,6 +96,14 @@ class SimpleSearch extends React.Component {
           })
           .then(({ data }) => {
             this.setState({
+                cityInfo: {
+                            'name': suggestion["City Name"],
+                            'description': suggestion["Description"],
+                            'visitorName': suggestion["Name"],
+                            'hours': suggestion["Hours"],
+                            'phone': suggestion["Phone 1"],
+                            'website': suggestion["Website 1"]
+                          },
                 renderResults: [data.RecordList][0]
             })
           })
@@ -119,11 +130,12 @@ class SimpleSearch extends React.Component {
         this.setState({
           loading: true,
           noResults: false,
+          cityInfo: '',
         })
 
         axios.post(process.env.GATSBY_LIGHTSPOKE_URL, {
             login_token: process.env.GATSBY_LIGHTSPOKE_KEY,
-            doc: '8649094',
+            doc: '10723078',
             'runtime.q0': value
         })
         .then(({ data }) => {
@@ -136,7 +148,7 @@ class SimpleSearch extends React.Component {
             'runtime.q3': value
             })
             .then(({ data }) => {
-            if (data.RecordList.length < 1) {
+            if (data.RecordList.length < 1 && this.state.cities.length < 1) {
               this.setState({
                 suggestions: getSuggestions([]),
                 loading: false,
@@ -186,7 +198,7 @@ class SimpleSearch extends React.Component {
           {...inputProps}
           id="tstgSearch"
           labelText='Try a city name, like "Austin," or an attraction name, like "State Capitol Complex"'
-          placeHolderText='Search the Travel Guide'
+          placeholder='Search the Travel Guide'
           />
       );
   
@@ -212,6 +224,16 @@ class SimpleSearch extends React.Component {
           }
           {this.state.loading &&
             <InlineLoading description="Loading..." />
+          }
+          {this.state.cityInfo &&
+            <div className="city-info">
+              <h3>{titleCase(this.state.cityInfo["name"])}</h3>
+              <p>{this.state.cityInfo["description"]}</p>
+              <p><span>Visitor information:</span></p>
+              <p>{this.state.cityInfo["visitorName"]}</p>
+              <p>{this.state.cityInfo["hours"]}</p>
+              <p>{this.state.cityInfo["phone"]}, <a rel="noopener noreferrer" target="_blank" href={'http://' + this.state.cityInfo["website"]}>{this.state.cityInfo["website"]}</a><i><Launch32/></i></p>
+            </div>
           }
           {this.state.renderResults &&
             <Results className={resultsbox} listings={this.state.renderResults} ads={['ad35','ad93','ad01','ad69','ad65','ad86','ad22','ad16','ad68','ad71','ad59','ad60','ad62','ad64','ad08','ad73','ad53','ad47','ad21','ad51','ad50','ad85','ad26','ad03','ad42','ad67','ad44','ad12','ad24','ad25','ad31','ad87','ad88','ad89','ad63','ad66','ad58','ad52','ad48','ad39','ad27','ad30','ad10','ad17','ad19','ad05','ad14','ad07','ad11','ad03']}></Results>

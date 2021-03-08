@@ -34,6 +34,10 @@ const Meta = ({ pageTitle, pageDescription, pageKeywords, titleType, featuredIma
             content: getPageTitle(),
         },
         {
+          name: 'twitter:title',
+          content: getPageTitle(),
+      },
+        {
             name: 'og:description',
             content: pageDescription || description,
         },
@@ -43,7 +47,7 @@ const Meta = ({ pageTitle, pageDescription, pageKeywords, titleType, featuredIma
         },
         {
             name: 'twitter:card',
-            content: 'summary',
+            content: 'summary_large_image',
         },
         {
             name: 'twitter:site',
@@ -60,7 +64,7 @@ const Meta = ({ pageTitle, pageDescription, pageKeywords, titleType, featuredIma
         {
            name: 'og:image',
            content: featuredImage,
-          },
+        },
         {
         name: 'twitter:image',
         content: featuredImage,
