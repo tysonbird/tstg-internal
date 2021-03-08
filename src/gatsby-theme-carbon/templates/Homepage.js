@@ -16,7 +16,7 @@ const Homepage = ({
   pageContext,
 }) => {
   const { frontmatter = {}, titleType } = pageContext;
-  const { title, description, keywords } = frontmatter;
+  const { title, description, keywords, featuredImage } = frontmatter;
   const { homepageTheme } = useMetadata();
 
   return (
@@ -25,6 +25,7 @@ const Homepage = ({
       pageDescription={description}
       pageKeywords={keywords}
       titleType={titleType}
+      featuredImage={featuredImage}
       homepage
       theme={homepageTheme}>
         <Hero image={tstg} logo={logo}></Hero>

@@ -322,7 +322,7 @@ a.bx--side-nav__link:nth-of-type(2n)::before {
     outline: 2px solid $purple;
 }
 
-.bx--search-close:focus, .bx--search-button:focus {
+.bx--search-close:focus, .bx--search-button:focus, .bx--search-close:active, .bx--search-button:active {
     outline: 2px solid $purple;
 }
 
@@ -376,6 +376,31 @@ a.bx--side-nav__link:nth-of-type(2n)::before {
 .react-autosuggest__suggestion--highlighted {
     background-color: $ui-03;
 }
+// City info on global searchbox 
+
+.city-info {
+    background-color: #fff;
+    padding: 10px 18px;
+    margin-top: 30px;
+    border: 1px solid $active-secondary;
+}
+
+.city-info h3 {
+    margin-bottom: $spacing-03;
+}
+
+.city-info span {
+    display: block;
+    margin-top: $spacing-03;
+}
+
+.city-info svg {
+    width: 14px;
+    margin-left: 5px;
+    vertical-align: middle;
+    margin-bottom: 6px;
+}
+
 
 // Override for mobile safari background problem
 
