@@ -89,10 +89,11 @@ class SimpleSearch extends React.Component {
     onSuggestionSelected = (event, {suggestion}) => {
 
       if (suggestion["City Name"] !== undefined) {
+        let lightspokeQuery = suggestion["City Name"].replace(/ /g, ' +');
         axios.post(process.env.GATSBY_LIGHTSPOKE_URL, {
           login_token: process.env.GATSBY_LIGHTSPOKE_KEY,
           doc: '10708761',
-          'runtime.q2': suggestion["City Name"]
+          'runtime.q2': lightspokeQuery
           })
           .then(({ data }) => {
             this.setState({
