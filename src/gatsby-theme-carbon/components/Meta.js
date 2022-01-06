@@ -69,6 +69,10 @@ const Meta = ({ pageTitle, pageDescription, pageKeywords, titleType, featuredIma
         name: 'twitter:image',
         content: featuredImage,
         },
+        {
+          name: 'theme-color',
+          content: '#000000'
+        }
       ]}>
       <html lang={lang} />
     </Helmet>
