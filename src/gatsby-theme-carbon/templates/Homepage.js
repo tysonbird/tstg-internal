@@ -7,7 +7,7 @@ import Hero from '../components/Hero';
 import Caption from '../components/Caption';
 import NextPrevious from 'gatsby-theme-carbon/src/components/NextPrevious';
 
-import tstg from '../../images/travel-guide-cover-burro-mesa-arch-cover.jpg';
+import tstg from '../../images/2021-travelguide-header-resacas.jpg';
 import logo from '../../images/lets-texas-logo-01.svg';
 
 const Homepage = ({

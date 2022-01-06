@@ -3,20 +3,28 @@ import Img from 'gatsby-image';
 import { StaticQuery, graphql } from 'gatsby';
 
 function renderImage(file) {
-    return (    
+    if (file.node.extension === "gif") {
+      return (
+        <img alt="" src={file.node.publicURL}/>
+      )
+    }
+    else {
+      return (    
         <Img fluid={file.node.childImageSharp.fluid}/>
-    );
+      );
+    }
 }
 
 const AdImage = function (props) {
   return <StaticQuery
     query={graphql`
       query {
-      images: allFile(filter:{ extension: { regex: "/jpg/"}}) {
+      images: allFile(filter: {extension: {regex: "/jpg|gif|png/"}}) {
       edges {
         node {
           extension
           relativePath
+          publicURL
           childImageSharp {
             fluid(maxWidth: 1200, quality:100) {
               ...GatsbyImageSharpFluid

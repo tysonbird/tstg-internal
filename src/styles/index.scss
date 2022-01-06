@@ -106,7 +106,7 @@ strong {
 .tstg-hero {
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: 100px center;
     background-attachment: fixed;
     height: 1000px;
     width: 100%;
@@ -115,9 +115,11 @@ strong {
 
 .tstg-hero-text {
     text-align: center;
-    right: 100px;
-    top: 200px;
-    position: absolute;
+    margin-left: 250px;
+    padding-top: 100px;  
+    // right: 100px;
+    // top: 200px;
+    // position: absolute;
 }
 
 .tstg-hero-text p {
@@ -413,12 +415,11 @@ a.bx--side-nav__link:nth-of-type(2n)::before {
 
 @media screen and (max-width:1060px) {
     .tstg-hero {
-        background-position: 70%;
         padding-left: 0px;
+        background-position: center;
     }
     .tstg-hero-text {
-        top: 100px;
-        right: 50px;
+        margin-left: auto;
     }
 }
 
