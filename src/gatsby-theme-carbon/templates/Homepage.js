@@ -30,7 +30,7 @@ const Homepage = ({
       theme={homepageTheme}>
         <Hero image={tstg} logo={logo}></Hero>
         <Main>
-          <Caption>Photo by E. Dan Klepper</Caption>
+          <Caption>Photo by Erich Schlegel</Caption>
           {children}
         </Main>
       <NextPrevious isHomepage location={location} pageContext={pageContext} />
