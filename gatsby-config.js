@@ -2,12 +2,15 @@ require("dotenv").config({
   path: `.env.${process.env.NODE_ENV}`,
 })
 
+const { gray100 } = require('@carbon/elements');
+
 module.exports = {
   siteMetadata: {
     title: "Texas State Travel Guide",
     description: "Everything you need to know about travel destinations in Texas",
     keywords: "travel, tourism, things to do, texas, texas highways, travel texas, txdot",
     homepageTheme: 'g10',
+    interiorTheme: 'g10',
     isSearchEnabled: false,
   },
   plugins: [
@@ -17,6 +20,8 @@ module.exports = {
         name: 'Texas State Travel Guide',
         short_name: 'TSTG',
         icon: 'src/images/favicon.png',
+        theme_color: gray100,
+        background_color: gray100
       },
     },
     {
@@ -27,7 +32,7 @@ module.exports = {
         short_name: "Travel Guide",
         start_url: "/",
         background_color: "#ffffff",
-        theme_color: "#0062ff",
+        theme_color: "#000000",
         display: "browser",
         titleType: 'append',
         isSearchEnabled: false,
