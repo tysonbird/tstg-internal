@@ -1,35 +1,26 @@
-- title: 'Texas: A Quick Tour'
-  pages:
-    - path: /quick-tour
 - title: Travel Information
   pages:
     - path: /travel-information
-- title: Road Trips
+- title: Travel Texas
   pages:
-    - title: Black History
-      path: /road-trips/black-history
-    - title: Boogie Woogie Highway
-      path: /road-trips/boogie-woogie-highway
-    - title: Cattle Drives
-      path: /road-trips/cattle-drives
-    - title: Mural Trail
-      path: /road-trips/mural-trail
-    - title: Ghost Towns
-      path: /road-trips/ghost-towns
-    - title: Railroad Hotels
-      path: /road-trips/railroad-hotels
-    - title: To the Top of Texas
-      path: /road-trips/top-of-texas
-    - title: Wildflower Drives
-      path: /road-trips/wildflower-drives
-    - title: Roadside Eats
-      path: /road-trips/roadside-eats
-    - title: Swimming Holes
-      path: /road-trips/swimming-holes
+    - title: 100 Years of State Parks
+      path: /travel-texas/state-parks
+    - title: Five Texas Peaks
+      path: /travel-texas/five-peaks
+    - title: Camping 101
+      path: /travel-texas/camping-101
+    - title: Year-Round Wildflowers
+      path: /travel-texas/wildflowers
+    - title: Traveling with Pets
+      path: /travel-texas/pets
+    - title: Historical Travel Guides
+      path: /travel-texas/historical-travel
+    - title: Mom and Pop Shops
+      path: /travel-texas/mom-and-pop
+    - title: Southeast Texas Cajun Culture
+      path: /travel-texas/cajun-culture
 - title: Travel Regions
   pages:
-    - title: South Texas Plains
-      path: /regions/south-texas-plains 
     - title: Gulf Coast
       path: /regions/gulf-coast
     - title: Piney Woods
@@ -42,6 +33,8 @@
       path: /regions/big-bend-country
     - title: Panhandle Plains
       path: /regions/panhandle-plains
+    - title: South Texas Plains
+      path: /regions/south-texas-plains 
 - title: Advertiser Index
   pages:
     - path: /advertiser-index

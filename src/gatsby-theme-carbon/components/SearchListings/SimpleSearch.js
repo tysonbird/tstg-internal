@@ -237,7 +237,7 @@ class SimpleSearch extends React.Component {
             </div>
           }
           {this.state.renderResults &&
-            <Results className={resultsbox} listings={this.state.renderResults} ads={['ad102','ad103','ad107','ad109','ad110','ad113','ad114','ad115','ad116','ad117','ad118','ad120','ad121','ad123','ad124','ad129','ad130','ad132','ad133','ad136']}></Results>
+            <Results className={resultsbox} listings={this.state.renderResults} ads={['ad44','ad46','ad51','ad55','ad63','ad68','ad77','ad79','ad81','ad82','ad85','ad86','ad93','ad94','ad95']}></Results>
           }
         </div>
       );

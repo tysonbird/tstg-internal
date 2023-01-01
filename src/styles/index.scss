@@ -106,9 +106,9 @@ strong {
 .tstg-hero {
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: 100px center;
+    background-position: 225px center;
     background-attachment: fixed;
-    height: 1000px;
+    height: 1100px;
     width: 100%;
     position: relative;
 }
@@ -127,7 +127,8 @@ strong {
     text-transform: uppercase;
     font-size: 14px;
     letter-spacing: 2px;
-    text-shadow: 1px 1px 5px #ffffff;
+    text-shadow: 1px 1px 5px #000000;
+    color: #ffffff;
 }
 
 .tstg-hero-text h1 {
@@ -142,6 +143,16 @@ strong {
     width: 300px;
     display: inline-block;
     margin-top: 25px;
+}
+
+.tstg-hero-logo {
+    margin-bottom: 200px;
+}
+
+.tstg-hero-logo img {
+    width: 40%;
+    display: block;
+    margin: 20px auto 10px auto;
 }
 
 .tstg-hero a {
@@ -403,6 +414,49 @@ a.bx--side-nav__link:nth-of-type(2n)::before {
     margin-bottom: 6px;
 }
 
+.tstg-statepark {
+    background-color: #ece8dc;
+    position: relative;
+}
+
+.tstg-statepark > *:not(img) {
+    padding: 0px 15px 15px 15px;
+}
+
+.tstg-statepark h5 {
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.tstg-statepark h3, .tstg-statepark h4 {
+    font-family: 'Breve Sans Text Semi Bold', sans-serif;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    font-weight: 800;
+}
+
+.tstg-statepark p {
+    font-family: 'Breve Sans Text Book', sans-serif;
+    font-size: 14px;
+    text-align: center;
+}
+
+.tstg-statepark h4 {
+    padding-top: 30px;
+}
+
+.tstg-statepark h4:before {
+    content: '';
+    border-top: 2px solid #000;
+    width: 50px;
+    position: absolute;
+    left: 50%;
+    margin-left: -25px;
+    margin-top: -20px;
+}
 
 // Override for mobile safari background problem
 
@@ -431,6 +485,9 @@ a.bx--side-nav__link:nth-of-type(2n)::before {
     .tstg-hero-text h1 {
         font-size: 60px;
         margin-top: 15px;
+    }
+    .tstg-hero-logo img {
+        width: 80%;
     }
     [class*='Header-module--headerName'] {
         z-index: 10;
