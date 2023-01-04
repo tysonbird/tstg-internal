@@ -3,6 +3,10 @@ import ResourceLinks from 'gatsby-theme-carbon/src/components/LeftNav/ResourceLi
 
 const links = [
   {
+    title: 'Order a Printed Guide',
+    href: 'https://texastravelleads.com/ttl_order?eid=DTGO1',
+  },
+  {
     title: 'Texas Highways Magazine',
     href: 'https://texashighways.com',
   },
@@ -12,7 +16,7 @@ const links = [
   },
   {
     title: 'Free Travel Literature',
-    href: 'https://www.txdot.gov/inside-txdot/forms-publications/publications/travel.html',
+    href: 'https://www.txdot.gov/discover/travel-publications/txdot-travel-literature.html',
   },
   {
     title: 'Travel Texas',

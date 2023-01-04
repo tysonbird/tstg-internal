@@ -111,10 +111,10 @@ import React, {
       <SwitcherLink href="https://drivetexas.org/">
         Traffic and Road Conditions
       </SwitcherLink>
-      <SwitcherLink href="https://www.txdot.gov/inside-txdot/division/travel/information-centers.html">
+      <SwitcherLink href="https://www.txdot.gov/discover/rest-areas-travel-information-centers/travel-information-centers.html">
           Travel Information Centers
       </SwitcherLink>
-      <SwitcherLink href="https://www.txdot.gov/inside-txdot/forms-publications/publications/travel.html">
+      <SwitcherLink href="https://www.txdot.gov/discover/travel-publications/txdot-travel-literature.html">
           Free Travel Literature
       </SwitcherLink>
       <SwitcherLink href="https://texashighways.com/texas-highways-events-calendar/">
@@ -139,7 +139,7 @@ import React, {
       <SwitcherLink href="https://drivecleantexas.org/">
           Drive Clean Texas
       </SwitcherLink>
-      <SwitcherLink href="https://www.txdot.gov/inside-txdot/get-involved/volunteer/adopt-a-highway.html">
+      <SwitcherLink href="https://www.txdot.gov/about/campaigns-outreach/adopt-a-highway.html">
           Adopt-a-Highway
       </SwitcherLink>
       <SwitcherLink href="http://ktb.org/">
