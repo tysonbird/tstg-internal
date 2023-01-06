@@ -18,6 +18,12 @@
     "id": "ad06"
   },
   {
+    "ad": "Greater New Braunfels Chamber of Commerce",
+    "url": "https://www.playinnewbraunfels.com/?utm_source=texashighways&utm_medium=print&utm_campaign=txtravelguide",
+    "filename": "22-18404-NewBraunfels-tgdigital-2023.jpg",
+    "id": "ad08"
+  },
+  {
     "ad": "Greenville CVB",
     "url": "https://www.ci.greenville.tx.us/1217/Visit",
     "filename": "GreenvilleCVB-tgdigital-2023.png",
@@ -58,6 +64,12 @@
     "url": "https://visitthecolonytx.com/",
     "filename": "TheColony-tgdigital-2023.jpg",
     "id": "ad23"
+  },
+  {
+    "ad": "Visit Dallas",
+    "url": "https://www.visitdallas.com/",
+    "filename": "visitdallas-tgdigital-2023.gif",
+    "id": "ad26"
   },
   {
     "ad": "Visit Frisco, City of Frisco",
@@ -138,6 +150,12 @@
     "id": "ad79"
   },
   {
+    "ad": "Lewisville, City of, Visitors Bureau",
+    "url": "https://www.visitlewisville.com/",
+    "filename": "CityofLewisvilleVisitorsBureau-tgdigital-2023.jpg",
+    "id": "ad80"
+  },
+  {
     "ad": "Longview, City of, Visit Longview",
     "url": "https://www.visitlongviewtexas.com/",
     "filename": "visitlongview-tgdigital-2023.png",
@@ -178,5 +196,11 @@
     "url": "https://www.discoverterrell.com/",
     "filename": "TerrellChamber-tgdigital-2023.jpg",
     "id": "ad95"
+  },
+  {
+    "ad": "Visit Plano, Plano CVB",
+    "url": "https://www.visitplano.com/10-amazing-things-to-do-in-plano-tx/",
+    "filename": "VisitPlano-tgdigital-2023.jpg",
+    "id": "ad103"
   }
 ]
