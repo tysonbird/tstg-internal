@@ -202,5 +202,23 @@
     "url": "https://www.visitplano.com/10-amazing-things-to-do-in-plano-tx/",
     "filename": "VisitPlano-tgdigital-2023.jpg",
     "id": "ad103"
+  },
+  {
+    "ad": "Amarillo CVB",
+    "url": "https://www.visitamarillo.com/",
+    "filename": "visit_amarillo_tstg_23.jpg",
+    "id": "ad02"
+  },
+  {
+    "ad": "Bullock Texas State History Museum",
+    "url": "https://www.thestoryoftexas.com/?utm_source=displayad&utm_medium=referral&utm_campaign=awareness&utm_content=homepage-20230111-fy23-TSTG-paid",
+    "filename": "Bullock_Genviz_Display_300×250.jpg",
+    "id": "ad50"
+  },
+  {
+    "ad": "Visit San Antonio",
+    "url": "https://www.visitsanantonio.com/?utm_source=Texas-State-Travel-Guide&utm_medium=banner&utm_campaign=VSA-FY23-HOT",
+    "filename": "San_Antonio_TG_2023.jpg",
+    "id": "ad29"
   }
 ]
