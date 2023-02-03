@@ -12,6 +12,7 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
+    "@gatsbyjs/reach-router": "^2.0.1",
     "axios": "^0.21.1",
     "dotenv": "^8.2.0",
     "gatsby": "^2.32.3",
